@@ -22,7 +22,7 @@ import com.naturemart.root.service.BrandService;
 import io.swagger.annotations.Api;
 
 @RestController
-@CrossOrigin
+@CrossOrigin // enable the comuication from angular framework
 @RequestMapping("brand")
 public class BrandController {
 	

@@ -21,7 +21,7 @@ import com.naturemart.root.service.CategoryService;
 
 import io.swagger.annotations.Api;
 
-@RestController
+@RestController  // tells this is controller class
 @CrossOrigin
 @RequestMapping("category")
 public class CategoryController {

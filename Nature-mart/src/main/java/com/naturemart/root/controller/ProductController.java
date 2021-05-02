@@ -34,7 +34,7 @@ public class ProductController {
 	private static final Logger log = LoggerFactory.getLogger(ProductController.class);
 
 	
-	@Autowired
+	@Autowired  // for dependency injection
 	private ProductService ps;
 	
 	@PostMapping("/savepro")
